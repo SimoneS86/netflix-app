@@ -12,6 +12,8 @@ function App() {
       <MySlider title="Rambo" searchKey="rambo" />
       <MySlider title="Fantozzi" searchKey="fantozzi" />
       <MySlider title="Terminator" searchKey="terminator" />
+      <MySlider title="Woody Allen" searchKey="woody allen" />
+      <MySlider title="Film di Guerra" searchKey="guerra" />
       <MyFooter />
     </div>
   );

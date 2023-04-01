@@ -1,6 +1,4 @@
-import { Component } from "react"
-class MyFooter extends Component {
-    render() {
+const MyFooter = () => {
       return (
   
         <footer className="bg-dark">
@@ -53,6 +51,6 @@ class MyFooter extends Component {
           </div>
         </footer>
       );
-    }
+    
   };
   export default MyFooter

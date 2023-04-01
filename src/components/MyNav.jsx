@@ -1,8 +1,6 @@
-import { Component } from "react";
 import avatar from "../assets/media/avatar.png";
 import logo from "../assets/media/netflix_logo.png";
-class MyNav extends Component {
-    render() {
+const MyNav = () => {
       return (
   
         <nav className="navbar navbar-expand-lg px-4 bg-dark">
@@ -52,7 +50,7 @@ class MyNav extends Component {
           </div>
         </nav>
       );
-    }
+    
   };
 
   export default MyNav
